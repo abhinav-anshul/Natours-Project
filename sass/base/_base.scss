@@ -1,0 +1,11 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%; /* 10px divided by 16px(default px for browsers; defines what 1 rem is */
+}
